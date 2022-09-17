@@ -1,5 +1,5 @@
 from tabulate import tabulate
-  mydata = [{"six_mo", "total_requests"}]
-  headers = ["Past 6 months" , "Total requests"]
+mydata = [("requests in the first 6 months", six_mo ), ("total requests", total_requests)]
+headers = ["Type of Requests" , "Results"]
 
-  print = (tabulate(mydata, headers=headers, tablefmt="grid"))
+print = (tabulate(mydata, headers=headers, tablefmt="grid"))

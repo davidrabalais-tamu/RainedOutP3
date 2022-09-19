@@ -6,7 +6,7 @@ URL_PATH = 'https://s3.amazonaws.com/tcmg476/http_access_log'
 LOCAL_FILE = 'log.txt'
 
 # Use urlretrieve() to fetch a remote copy and save into the local file path
-local_file, headers = urlretrieve(URL_PATH, LOCAL_FILE)
+# local_file, headers = urlretrieve(URL_PATH, LOCAL_FILE)
 
 # Alt.: supply an anonmymous callback function to print a simple progress bar to screen
 #local_file, headers = urlretrieve(URL_PATH, LOCAL_FILE, lambda x,y,z: print('.', end='', flush=True))

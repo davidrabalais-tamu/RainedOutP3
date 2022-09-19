@@ -3,17 +3,8 @@ FILE_NAME = './log.txt'
 # Use open() to get a filehandle that can access the file
 fh = open(FILE_NAME)
 
-# Loop through the file 
-# for line in fh:
-#   print(line)
-
-# The filehandle object provides many basic file operations:
-# fh.read(64)     # read the specified bytes from the file (if no byte size is specified, then the entire file is read)
-# fh.readline()   # read a single line from the file (up to a newline character - \n)
-# fh.write('some data here')  # write a string to the file (make sure the file was open()'ed for writing!)
-
-
-array = ["Oct", "Nov", "Dec", "Jan", "Feb", "Mar"]
+#Katherine updated array dates
+array = ["Oct/1995:", "Sep/1995:", "Aug/1995:", "Jul/1995:", "Jun/1995:", "May/1995:"]
 six_mo =0
 total_lines= 0
 total_requests= 0

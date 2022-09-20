@@ -19,7 +19,7 @@ for line in open(FILE_NAME):
                 six_mo += 1
 
 # The loop example above is memory-efficient, and also easy to read
-print("number of requests made in first six months is ", six_mo)
-print("number of lines ", total_lines)
-print("number of total requests ", total_requests)
+# print("number of requests made in first six months is ", six_mo)
+# print("number of lines ", total_lines)
+# print("number of total requests ", total_requests)
 fh.close()      # close the file when you're finished with it
